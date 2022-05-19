@@ -102,7 +102,7 @@
         
         /*version*/
         if (argc > 1 && !strcmp(argv[1], "--version")) {
-            printf("\nVersion 1.1 - ItsT3K <<Josh D>>, 2022\n");
+            printf("Version 1.1 - ItsT3K <<Josh D>>, 2022\n");
             return 0;
         }
         
