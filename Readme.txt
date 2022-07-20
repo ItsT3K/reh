@@ -4,13 +4,15 @@
 reh is just a goofy program I wrote for fun
 using ASCII art from 
 http://www.ascii-art.de/
-and C code. 
+and C++ code. 
 
-The animals in there are 
-    skunks  just run reh!
-    fox     --fox
-    dog     --dog
-    horse   --horse
+The animals included are
+    Skunk
+    Dog
+    Fox
+    Horse
+    
+more will come later
  
 
 It's just something made while bored.
