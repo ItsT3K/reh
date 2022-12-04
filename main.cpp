@@ -14,6 +14,7 @@
             cout << " [2] - Dog                      \n";
             cout << " [3] - Fox                      \n";
             cout << " [4] - Horse                    \n";
+            cout << " [5] - Credits		     \n";
             cout << "================================\n";
             }
             
@@ -45,6 +46,11 @@
             printf("\nneigh! - have a nice day!\n");
 //            return 0;
         }
+    void Credit()
+        {
+            system("clear");
+            printf("%s\n", credit);
+        }
         
     // The meat in all this code
     
@@ -66,6 +72,7 @@
                             case 2: Dog(); break;
                             case 3: Fox(); break;
                             case 4: Horse(); break;
+                            case 5: Credit(); break;
                             default: cout << "Not a choice"; break;
                         }
                     cout << "Press y or Y to Select a different animal";
